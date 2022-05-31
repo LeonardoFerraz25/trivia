@@ -1,0 +1,74 @@
+.main-ranking {
+  background-color: #18181b;
+  border: 1px solid #79797a;
+  color: #79797a;
+  width: 500px;
+  height: 85vh;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ol::-webkit-scrollbar {
+  border: none;
+  border-radius: 10px;
+  width: 5px;
+}
+
+ol::-webkit-scrollbar-thumb {
+  background-color: #0080C5;
+  border-radius: 20px;
+}
+
+.main-ranking h1 {
+  color: #0080C5;
+}
+
+ol {
+  border: 1px solid #79797a;
+  border-radius: 10px;
+  overflow-y: scroll;
+  width: 90%;
+  height: 380px;
+  padding-top: 2rem;
+}
+
+ol li {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li img {
+  border-radius: 100%;
+}
+
+.main-ranking button {
+  width: 10rem;
+  background-color: #0080C5;
+  border: none;
+  height: 2rem;
+  border-radius: 5px;
+  color: #18181b;
+}
+
+.main-ranking button:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}
+
+.main-ranking button:focus {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}

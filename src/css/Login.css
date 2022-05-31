@@ -1,0 +1,113 @@
+.main-login {
+  background-color: #18181b;
+  border: 1px solid #79797a;
+  border-radius: 10px;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.logo-trivia-wrapper {
+  width: 400px;
+  margin-top: 2rem;
+  animation: shake infinite 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+.logo-trivia-wrapper img {
+  width: 100%;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+  margin-top: 1rem;
+}
+
+.form-login input {
+  width: 21rem;
+}
+
+.form-login p {
+  color: #79797a;
+}
+
+.form-login label {
+  border: 1px solid #79797a;
+  border-radius: 10px;
+  margin-top: 1rem;
+  height: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #18181b;
+}
+
+.buttons-login {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+.buttons-login button {
+  width: 10rem;
+  background-color: #0080C5;
+  border: none;
+  height: 2rem;
+  border-radius: 5px;
+  color: #27272a;
+}
+
+.buttons-login button:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}
+
+.buttons-login button:focus {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}
+
+.buttons-login button:disabled {
+  background-color: #0080c57e;
+  cursor: auto;
+  box-shadow: none;
+}
+
+.buttons-login button:disabled:hover {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+#button-settings {
+  background-color: transparent;
+  color: #0080C5;
+  border: 1px solid #0080C5;
+}
+
+@keyframes shake {
+
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

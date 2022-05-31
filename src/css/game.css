@@ -1,0 +1,111 @@
+.main-questions {
+  background-color: #18181b;
+  border: 1px solid #79797a;
+  height: 30rem;
+  width: 60vw;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.questions {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #79797a;
+}
+
+.answer-options {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.answer-options button {
+  width: 35rem;
+  height: 2rem;
+  border-radius: 5px;
+  background-color: #0080C5;
+  border: none;
+  color: #18181b;
+}
+
+.answer-options button:hover {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}
+
+.answer-options button:focus {
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.582);
+  cursor: pointer;
+  outline: 2px solid #0080C5;
+  border: 2px solid #18181b;
+}
+
+.answer-options button:disabled {
+  cursor: default;
+}
+
+.next-button {
+  background-color: #0080C5;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.349);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin-top: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.next-button button{
+  width: 10rem;
+  text-transform: uppercase;
+  border: none;
+  height: 2rem;
+  background-color: #18181b;
+  border: 1px solid #0080C5;
+  color: #0080C5;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 5px;
+}
+
+.next-button button:hover {
+  box-shadow: 0px 0px 10px black;
+  color: #27b3ff;
+  outline: 2px solid #18181b;
+}
+
+#correct {
+  border: 3px solid rgb(6, 240, 15);
+  color: rgb(6, 240, 15);
+  text-shadow: 1px 1px 5px black;
+}
+
+#correct:hover {
+  border: 3px solid rgb(6, 240, 15);
+  outline: none;
+  box-shadow: none;
+}
+
+#incorrect {
+  border: 3px solid red;
+  background-color: #0080c570;
+  color: red;
+  text-shadow: 1px 1px 5px black;
+}
+
+#incorrect:hover {
+  border: 3px solid red;
+  outline: none;
+  box-shadow: none;
+}

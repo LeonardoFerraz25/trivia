@@ -1,0 +1,10 @@
+.timer {
+ background-color: #0080C5;
+ box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.349);
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 3rem;
+ color: #18181b;
+}
